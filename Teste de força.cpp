@@ -27,25 +27,25 @@ int main(int argc, char* args[])
 
 	while (sair == false) // sair == false, retomando a bool para dizer quando queremos sair do laço
 	{
-		cout << " o         o" << endl;
+		cout << " o         o" << endl; // nas linha abaixo vai imprimir os bunecos os nomes dos jogadores 1 e 2 e a vida de ambos.
 		cout << ".T./     \\.T." << endl;
 		cout << " ^         ^" << endl;
-		cout << jog1 << "     " << endl;
+		cout << jog1 << "            "  << jog2 << endl;
 		cout << "Vida: " << vida1 << "    " << "Vida: " << vida2 << endl;
 
-		cout << "proxima jogada ? (Digite enter)" << endl;
-		cin.get();
+		cout << "proxima jogada ? (Digite enter)" << endl; // comando para proxima jogada 
+		cin.get(); // proxima linha 
 		
 		system("pause");// vai deixar o programa pausado ate que alguem aperte alguma tecla
 
-		int dado6;
+		int dado6;// variavel 
 		srand((int)time(0)); //A função rand() gera uma sequência de valores que se repete igual a si própria sempre que o programa é executado.
 
 		dado6 = rand() % 100 + 1; // gera um numero aleatorio no caso entre 1 e 100
 		vida1 = vida1 - dado6; // a vida diminui em relaçao ao dado 
 
 		dado6 = rand() % 100 + 1; // mesma coisa 
-		vida2 = vida2 - dado6;
+		vida2 = vida2 - dado6; // mesma coisa
 
 		cout << "vida: " << vida1 << "vida: " << vida2 << endl;
 		system("pause");// vai deixar o programa pausado ate que alguem aperte alguma tecla
@@ -53,13 +53,13 @@ int main(int argc, char* args[])
 
 		if (vida1 <= 0 || vida2 <= 0) // se a vida for menor ou igual a 0 vai sair..
 		{
-			sair = true;
+			sair = true; // comando buleano
 		}
 		else system("cls"); // se nao, limpa a tela 
 
-		cout << "FIM DE JOGO!" << endl;
+		cout << "FIM DE JOGO!" << endl; // saida com fim de jogo 
 
-		if (vida1 > 0) {
+		if (vida1 > 0) { // se a vida1 for menor que 0 
 			cout << "jog1" << "venceu !" << endl; // se o jogado 1 tiver mais vida ele vence 
 		}
 		else if (vida1 > 0) cout << "jog2" << "venceu !" << endl; //se o jogado 2 tiver mais vida ele vence
