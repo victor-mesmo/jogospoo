@@ -59,11 +59,15 @@ int main(int argc, char* args[])
 
 		cout << "FIM DE JOGO!" << endl; // saida com fim de jogo 
 
-		if (vida1 > 0) { // se a vida1 for menor que 0 
+		if (vida1 > 0) // se a vida1 for menor que 0 
 			cout << "jog1" << "venceu !" << endl; // se o jogado 1 tiver mais vida ele vence 
-		}
-		else if (vida1 > 0) cout << "jog2" << "venceu !" << endl; //se o jogado 2 tiver mais vida ele vence
-		else cout << "Os dois perderam!" << endl; // se nenhum dos dois vencerem vai dar empate 
+		
+		else if (vida1 > 0) 
+			cout << "jog2" << "venceu !" << endl; //se o jogado 2 tiver mais vida ele vence
+		
+		else 
+			cout << "Os dois perderam!" << endl; // se nenhum dos dois vencerem vai dar empate 
+		
 		system("pause");
 	}
 	return 0; // retorno e 0
