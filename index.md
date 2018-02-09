@@ -36,3 +36,4 @@ _ itálico
 #s uma ou mais" # " criam capitulos e subcap
 
 * * *  
+https://github.com/jekyll/jekyll/wiki/Themes da uma olhada
