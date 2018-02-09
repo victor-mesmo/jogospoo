@@ -18,9 +18,10 @@ Aluno de Programação de Jogos Digitais, Victor "Frosty" Rodrigues.
 ## Artes  
 ![](https://orig00.deviantart.net/cc86/f/2015/014/9/e/m4a4_asiimov___pixel_art_by_stephenmdw-d8dy367.png)    
 
-![](site1.gif)
 
-![] (site2.png)    
+![](site2.png)
+
+
 * * *  
 ## Projeto  
 * Projeto Akili  
