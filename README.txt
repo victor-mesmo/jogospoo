@@ -1,4 +1,4 @@
 -POOaulas || jogos poo
-competiçao entre os carrinhos 
-hello wor
-teste de força
+competiÃ§ao entre os carrinhos 
+hello world 
+teste de forÃ§a
